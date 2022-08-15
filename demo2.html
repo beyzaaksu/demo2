@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="background-color:#2E0249">
+    <nav class="navbar navbar-expand-md" style="background-color:#23053a;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MyPage</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="container mt-5">   
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card" style="background-color:#554994;color:antiquewhite"  >
+                <div class="avatar-box">
+                    <img src="./img/WhatsApp Image 2022-08-15 at 12.43.20 AM.jpeg" class="avatar" alt="...">
+                </div>
+                <div class="card-body" >
+                  <h5 class="card-title">Beyza Aksu</h5>
+                  <p class="card-text">Kodluyoruz ^-^</p>
+                </div>
+                <ul class="list-group list-group-flush" >
+                  <li class="list-group-item" style="background-color:#554994;color:antiquewhite"><i class="fa-brands fa-instagram"></i> aksu_beyzaaaxd</li>
+                  <li class="list-group-item" style="background-color:#554994;color:antiquewhite"><i class="fa-brands fa-square-github"></i> beyzaaksu</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Profil Düzenle</a>                 
+                </div>
+              </div> <!--End of Card-->
+              <div class="card mt-5" style="background-color:#554994;color:antiquewhite">
+                <h3 class="card-header" style="background-color:#2d235f;color:antiquewhite">Sürpriz Kutusu</h3>
+                <div class="card-body">
+                  <h4 class="card-title">Küçük bir sürpriz için...</h4>
+                  <p class="card-text">aşağıdaki beyaz butona tıklayınız :)</p>
+                  <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
+                    Beyaz buton
+                  </button>
+                </div>
+              </div>  <!--End of Modal-->
+        </div> <!--End of col-md-3-->
+        <div class="col-md-6">
+          <div class="alert alert-success" role="alert">
+            <strong>Tebrikler!</strong> Akış başarıyla güncellendi.
+          </div>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://www.denofgeek.com/wp-content/uploads/2019/04/3515432-endgamedek-1.jpg?fit=1200%2C675" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://media.npr.org/assets/img/2018/09/25/ttt-taylor-swift-edit_wide-7eefc1969262dabaa978335b20b107113a7e76d5-s1100-c50.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://cdn.kayiprihtim.com/wp-content/uploads/2022/01/Dexter-New-Blood-final.jpg" style="height:358px" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>  <!--End of carousel-->
+          <div class="row mt-3"> <!--Bunu eklememizin sebebi carouselin altına eklediğimiz cardların yan yana durmasını sağlamak-->
+            <div class="col-md-6">
+              <div class="card" style="background-color:#9d43ca;color:antiquewhite">
+                <div class="card-body">
+                  <p class="card-text">İlgi Alanlarım</p>
+                </div>
+                <img class="mini-post" src="https://assets.goodereader.com/blog/uploads/images/2020/02/01005559/https-_specials-images.forbesimg.com_dam_imageserve_794015686_960x0.jpg-fitscale.jpg" alt="Card image">
+                <div class="card-body">
+                  <p class="card-text">Kitap okumak</p>
+                </div>
+              </div> <!--End of card-1-->
+            </div><!--End of col-md-6 for card-1-->
+            <div class="col-md-6">
+              <div class="card" style="background-color:#9d43ca;color:antiquewhite">
+                <div class="card-body">
+                  <p class="card-text">İlgi Alanlarım</p>
+                </div>
+                <img class="mini-post" src="https://res.cloudinary.com/practicaldev/image/fetch/s--QIJ-47h1--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/5gyy0p798ap8dyfmffnw.jpg" alt="Card image">
+                <div class="card-body">
+                  <p class="card-text">Kod yazmak</p>
+                </div>
+              </div> <!--End of card-2-->
+            </div> <!--End of col-md-6 for card-2-->
+          </div><!--End of row-2-->
+          <div class="card mt-3 col-md-12">
+            <div class="card-body" style="background-color:#952cca;color:antiquewhite">
+              <p class="card-text" style="text-align:center"><strong>Bu site neden var?</strong> </p>
+            </div>
+            <img src="https://www.independent.ie/life/home-garden/f989c/34846850.ece/AUTOCROP/w1240h700/2016-07-01_lif_22418662_I3.JPG" alt="Card image">
+            <div class="card-body" style="background-color:#952cca;color:antiquewhite">
+              <p class="card-text">Bu site benim ile ilgili detayları içeren küçük bir demo çalışması</p>
+            </div>
+          </div> <!--End of last card col-md-12-->    
+        </div> <!--End of col-md-6-->
+        <div class="col-md-3">
+          <div class="card" style="background-color:#554994;color:antiquewhite">
+            <h3 class="card-header">Öne Çıkanlar</h3>
+            <div class="card-body">
+              <h4 class="card-title">Çalışma Yaptığım Diller</h4>
+              <p class="card-text">HTML <br> CSS <br> Javascript <br> Java <br> C <br> </p>
+            </div>
+          </div> <!--End of card-1 of col-md-3-->
+          <div class="card mt-3">
+            <div class="card-body" style="background-color:#554994;color:antiquewhite">
+              <h4 class="card-title">Linkler</h4>
+              <p class="card-text">
+                Çalışmalarım hakkında bilgi edinmek için aşağıdaki linkleri kullanabilirsiniz!
+              </p>
+              <a href="https://www.linkedin.com/in/beyzaaksu/" class="card-link">LinkedIn Hesabım</a>
+              <a href="https://github.com/beyzaaksu" class="card-link">GitHub Hesabım</a>
+            </div>
+          </div> <!--End of card-2 of col-md-3-->
+          
+          
+
+        </div> <!--End of last col-md-3-->
+      </div> <!--End of Row-->
+    </div> <!--End of Container-->
+
+
+
+    
+    <!-- Modal -->
+<div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Sitemi ziyaret ettiğiniz için teşekkürler!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       ***Küçük bir sürpriz***
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+        <button type="button" class="btn btn-primary">:))</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.js"></script> bu nedense modal'ı çalıştırmadı  -->
+  </body>
+
+  <footer class="mt-3" style="background-color:#23053a;color:#3d06a3">
+    <div class="container">
+      <div class="row footer-row">
+        <div class="col-md-8">
+          Sol Menü
+          <br>
+          Copyright <i class="fa-solid fa-copyright"></i> 2022.
+        </div>
+        <div class="col-md-4">
+          Sağ Menü
+          <ul>
+            <li>Kullanıcı Sözleşmesi</li>
+            <li>Sıkça Sorulan Sorular</li>
+            <li>İletişim</li>
+          </ul>
+        </div>
+
+      </div> <!--End of row-->
+    </div> <!--End of container-->
+
+  </footer>
+</html>
